@@ -46,7 +46,7 @@ jobs:
           python3 incident-response/analyse.py
 
       - name: Upload analysis report
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: incident-analysis-report
           path: logs/
@@ -111,7 +111,7 @@ jobs:
           cat reports/pipeline-report.md
 
       - name: Upload pipeline report
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: pipeline-report
           path: reports/
