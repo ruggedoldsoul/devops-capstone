@@ -1,0 +1,10 @@
+﻿2024-01-15 10:00:01 INFO Application started
+2024-01-15 10:01:15 ERROR Connection refused to database
+2024-01-15 10:01:16 ERROR Connection refused to database
+2024-01-15 10:02:30 CRITICAL Out of memory error detected
+2024-01-15 10:03:45 ERROR Timeout waiting for response
+2024-01-15 10:04:00 ERROR Connection refused to database
+2024-01-15 10:04:30 CRITICAL CPU usage critical
+2024-01-15 10:05:00 ERROR Timeout waiting for response
+2024-01-15 10:05:30 ERROR Connection refused to database
+2024-01-15 10:06:00 CRITICAL Out of memory error detected

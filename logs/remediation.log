@@ -1,0 +1,39 @@
+[2026-05-09 12:04:31] ============================================================
+[2026-05-09 12:04:31] REMEDIATION SCRIPT STARTED
+[2026-05-09 12:04:31] Target container: fake-container
+[2026-05-09 12:04:31] ============================================================
+[2026-05-09 12:04:32] Container fake-container is UNHEALTHY - starting remediation
+[2026-05-09 12:04:32] Attempting restart of fake-container (attempt 1 of 3)
+[2026-05-09 12:04:32] Waiting 5s before restart (exponential backoff)
+[2026-05-09 12:04:37] FAILED: Could not restart fake-container
+[2026-05-09 12:04:37] Verifying recovery of fake-container...
+[2026-05-09 12:04:41] RECOVERY FAILED: fake-container is still unhealthy
+[2026-05-09 12:04:41] Retry count: 1 of 3
+[2026-05-09 12:04:41] Attempting restart of fake-container (attempt 2 of 3)
+[2026-05-09 12:04:41] Waiting 10s before restart (exponential backoff)
+[2026-05-09 12:04:51] FAILED: Could not restart fake-container
+[2026-05-09 12:04:51] Verifying recovery of fake-container...
+[2026-05-09 12:04:55] RECOVERY FAILED: fake-container is still unhealthy
+[2026-05-09 12:04:55] Retry count: 2 of 3
+[2026-05-09 12:04:55] Attempting restart of fake-container (attempt 3 of 3)
+[2026-05-09 12:04:55] Waiting 15s before restart (exponential backoff)
+[2026-05-09 12:05:10] FAILED: Could not restart fake-container
+[2026-05-09 12:05:10] Verifying recovery of fake-container...
+[2026-05-09 12:05:14] RECOVERY FAILED: fake-container is still unhealthy
+[2026-05-09 12:05:14] Retry count: 3 of 3
+[2026-05-09 12:05:14] ============================================================
+[2026-05-09 12:05:14] REMEDIATION FAILED - Manual intervention required
+[2026-05-09 12:05:14] ============================================================
+[2026-05-09 14:15:20] ============================================================
+[2026-05-09 14:15:20] REMEDIATION SCRIPT STARTED
+[2026-05-09 14:15:20] Target container: sample-app
+[2026-05-09 14:15:20] ============================================================
+[2026-05-09 14:15:21] Container sample-app is UNHEALTHY - starting remediation
+[2026-05-09 14:15:21] Attempting restart of sample-app (attempt 1 of 3)
+[2026-05-09 14:15:21] Waiting 5s before restart (exponential backoff)
+[2026-05-09 14:15:27] SUCCESS: sample-app restarted successfully
+[2026-05-09 14:15:27] Verifying recovery of sample-app...
+[2026-05-09 14:15:31] RECOVERY CONFIRMED: sample-app is healthy
+[2026-05-09 14:15:31] ============================================================
+[2026-05-09 14:15:31] REMEDIATION SUCCESSFUL after 1 attempt(s)
+[2026-05-09 14:15:31] ============================================================
